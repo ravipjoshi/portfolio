@@ -1,0 +1,121 @@
+.nav{
+      
+  text-align: center;
+
+}
+* {
+ box-sizing: border-box;
+}
+body{
+
+
+ font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+ font-size: 18px;
+ line-height: 34px;
+ color: #777777;
+ background: url("../../asset/images/subtle_white_feathers_@2X.png");
+}
+
+.container-fluid {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+  background-color: #ffffff;
+}
+
+/* Navbar*/
+.navbar{ background:#ffffff;}
+
+.nav-link {
+  color:#777777;
+} 
+.navbar-brand{ color: #f4f4f4; cursor: pointer;}
+.brand{
+  background-color: #4aaaa5;
+}
+.nav-link{ margin-right: 1em !important;}
+
+.nav-link:hover{ background: #f4f4f4; color: #4aaaa5; }
+
+.navbar-collapse{ justify-content: flex-end;}
+
+.navbar-toggler{  background:#fff !important;}
+
+
+/* About */
+.about{
+  margin: 4em 0;
+  padding: 1em;
+  position: relative;
+ }
+ 
+ .about img{
+  height: 100%;
+     width: 100%;
+     border-radius: 50%;
+     
+ }
+
+ /*Portfolio*/
+.portfolio{
+  margin: 4em 0;
+     position: relative; 
+ }
+ 
+ .img-fluid{
+  height: 15rem;
+  width: 100%;
+  margin: 1em;
+ }
+
+ .portfolio img{
+   height: 15rem;
+   width: 100%;
+   margin: 1em;
+   
+ }
+/*footer*/
+.contact-form{
+  margin: 6em 0;
+  position: relative;  
+ }
+ 
+ 
+ .contact-form .right{
+  max-width: 600px;
+ }
+ .contact-form .right .btn-secondary{
+  background:  #4aaaa5;
+  color: #fff;
+  border:0;
+ }
+ .contact-form .right .form-control::placeholder{
+  color: #888;
+  font-size: 16px;
+ }
+ footer{
+  font-size: 12px;
+  color: #ffffff;
+  text-align: center;
+  background: #666666;
+  border-top: 8px solid #4aaaa5;
+    height: 50px;
+ }
+
+
+h1,
+h2,
+h3 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  color: #4aaaa5;
+}
+
+#main-container {
+  max-width: 960px;
+  margin-top:80px;
+ 
+  background-color: #ffffff;
+}
+
